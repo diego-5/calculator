@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href='style.css'>
+    <script type='text/javascript' src='script.js' defer></script>
+</head>
+<body>
+<h1>Calculator</h1>
+<div id="expressionBox"></div>
+<div id="answerBox"></div>
+<div class= "button-grid">
+    
+    
+
+    <button onClick="setNumbers(1)" value="1" id="oneBtn" class="btn">1</button>
+    <button onClick="setNumbers(2)"id="twoBtn" class="btn">2</button>
+    <button onClick="setNumbers(3)" id="threeBtn" class="btn">3</button>
+        <button onClick="setOperation(1)" id="plus"  class="btn">+</button>
+
+    <button onClick="setNumbers(4)" id="fourBtn" class="btn">4</button>
+    <button onClick="setNumbers(5)" id="fiveBtn" class="btn">5</button>
+    <button onClick="setNumbers(6)" id="sixBtn" class="btn">6</button>
+        <button onClick="setOperation(2)" id="minus" class="btn">-</button>
+    <button onClick="setNumbers(7)" id="sevenBtn" class="btn">7</button>
+    <button onClick="setNumbers(8)" id="eightBtn" class="btn">8</button>
+    <button onClick="setNumbers(9)" id="nineBtn" class="btn">9</button>
+        <button onClick="setOperation(3)" id="multi" class="btn">*</button>
+
+    <button onClick="setNumbers(0)" id="zeroBtn" class="btn">0</button>
+
+    
+    
+    <button id="clear" class="btn">C</button>
+    
+    <button onClick="equals()" id="equal" class="btn">=</button>
+    <button onClick="setOperation(4)" id="divide" class="btn">/</button>
+
+
+</div>
+</body>
+</html>

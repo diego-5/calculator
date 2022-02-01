@@ -1,1 +1,2 @@
-A Simple calculator made using javascript.
+A Simple calculator made using javascript. 
+Hosted on: ...
